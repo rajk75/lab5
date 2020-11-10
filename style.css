@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  
+  font-family: Arial;
+  color: rgb(250, 245, 234);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 33% 40% 27%;
+    }
+
+    #header {
+        font-family: Arial;
+        font-size: 2cm;
+        text-align: center;
+        background-color: aqua;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #nav {
+        font-size: 1.7cm;
+        text-align: left;
+        background-color: greenyellow;
+    }
+    #main{
+        font-size: 1.7cm;
+        text-align: center;
+        background-color: pink;
+    }
+
+    #main2{
+        font-size: 1.7cm;
+        font-style: italic
+        text-align: center;
+        background-color: rgb(231, 31, 64);
+    }
+    #footer {
+        font-size: 1cm;
+        text-align: center;
+        background-color: orange;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
